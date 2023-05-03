@@ -114,4 +114,14 @@ while (i <= naturalNumber) {
 
 console.log(`The sum of all even divisors of ${naturalNumber} is : ${sumOfEvenDivisors} `);
 
+i = 1;
 
+while (i <= 10) {
+    console.log(`Multiplication table for ${i} :`);
+    j = 0;
+    while (j <= 10) {
+        console.log(`${i} * ${j} = ${i * j}`);
+        j++;
+    }
+    i++;
+}
